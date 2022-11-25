@@ -1,4 +1,5 @@
 import React from 'react';
+import Brand from '../catagory/Brand';
 import Banner from './Banner';
 import ChooseUs from './ChooseUs';
 import LatestProducts from './LatestProducts';
@@ -16,6 +17,7 @@ const Home = () => {
               {/* <LatestProducts></LatestProducts> */}
               <Products></Products>
               <ChooseUs></ChooseUs>
+              <Brand></Brand>
             </div>
         </>
     );

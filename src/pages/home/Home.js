@@ -9,7 +9,7 @@ import Products from './Products';
 const Home = () => {
     return (
         <>
-            <div>
+            <div className='text-primary'>
                <Banner></Banner>
               {/* <LatestProducts></LatestProducts> */}
               <Products></Products>

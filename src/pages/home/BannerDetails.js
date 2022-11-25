@@ -11,7 +11,7 @@ const BannerDetails = ({ product }) => {
           <img src={img} className="" alt="" />
         </div>
         <div className="absolute transform -translate-y-1/2 left-24 top-1/3 w-3/6">
-          <h1 className="text-6xl font-bold text-primary" style={{ lineHeight: "73px" }}>{name}</h1>
+          <h1 className="text-6xl font-medium text-primary" style={{ lineHeight: "73px" }}>{name}</h1>
         </div>
         <div className="absolute transform -translate-y-1/2 left-24 w-3/6 z-10"
           style={{ top: "63%" }}>

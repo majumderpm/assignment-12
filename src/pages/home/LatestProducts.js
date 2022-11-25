@@ -8,17 +8,17 @@ const LatestProducts = ({ products }) => {
     <>
 
 
-    <h2>Our Latest Catagory</h2>
-      <div className="card card-compact w-96 bg-base-100 shadow-xl">
+
+      <div className="card card-compact w-full hover:drop-shadow bg-white py-10 px-6 border ">
         <figure>
-          <img src={img} alt="Shoes" />
+          <img className="w-6/12" src={img} alt="Shoes" />
         </figure>
-        <div className="card-body">
-          <h2 className="card-title">{catagroy_name}</h2>
-          <h4>{name}</h4>
-          <p>{total}</p>
-          <div className="card-actions justify-end">
-            <button className="btn btn-primary">Buy Now</button>
+        <div className="card-body text-center block">
+          <h3 className="card-title text-1xl font-bold text-primary block my-2.5">{catagroy_name}</h3>
+          <h4 className="text-1xl font-bold text-primary">{name}</h4>
+          <p className="text-1xl font-bold text-primary">{total}</p>
+          <div className="card-actions justify-center my-2.5">
+          <button className="btn btn-outline-block text-primary hover:text-white">Buy Now</button>
           </div>
         </div>
       </div>

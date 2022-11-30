@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import drow2 from '../assets/images/draw2.jpg';
-import mail from '../assets/images/email.png';
+import google from '../assets/images/google.png';
 
 const Login = () => {
     return (
@@ -22,6 +22,14 @@ const Login = () => {
               data-mdb-ripple="true"
               data-mdb-ripple-color="light"
               className="inline-block p-3 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out mx-1" >
+                <img src={google} alt="" />
+        
+            </button>
+            <button
+              type="button"
+              data-mdb-ripple="true"
+              data-mdb-ripple-color="light"
+              className="inline-block p-3 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out mx-1" >
          
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" className="w-4 h-4">
               
@@ -34,14 +42,7 @@ const Login = () => {
 
           
 
-            <button
-              type="button"
-              data-mdb-ripple="true"
-              data-mdb-ripple-color="light"
-              className="inline-block p-3 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out mx-1" >
-                <img src={mail} alt="" />
-        
-            </button>
+          
           </div>
 
           <div

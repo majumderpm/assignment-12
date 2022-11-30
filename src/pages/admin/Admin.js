@@ -5,6 +5,7 @@ const Admin = () => {
     return (
         <div>
            <AdminUser></AdminUser>
+           
         </div>
     );
 };

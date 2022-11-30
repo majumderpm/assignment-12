@@ -35,11 +35,11 @@ const AdminDetails = ({adminUser}) => {
             </div>
         </td>
         <td>
-          <h5 className='text-sm font-bold text-primary'>{price} </h5>
-          
+         
+          <h5 className='text-sm font-bold text-primary'>{date} </h5>
         </td>
         <td>
-          <h5 className='text-sm font-bold text-primary'>{date} </h5>
+        <h5 className='text-sm font-bold text-primary'>{price} </h5>
           
         </td>
         <td className='text-sm font-bold text-primary'>{color}</td>

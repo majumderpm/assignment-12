@@ -6,7 +6,7 @@ const Header = () => {
     const menuitem = <React.Fragment>
               <li className="mx-4"><Link to="/" className="uppercase text-sm tracking-wide text-primary">Home</Link></li>
               <li className="mx-4"><Link to="/categories" className="uppercase text-sm tracking-wide text-primary">Categories </Link></li>
-              <li className="mx-4"><Link to="/advertised" className="uppercase text-sm tracking-wide text-primary">Advertised items</Link></li>
+              <li className="mx-4"><Link to="/admin" className="uppercase text-sm tracking-wide text-primary">Admin</Link></li>
               {/* <li><Link to="/reviews">Reviews</Link></li> */}
               {/* <li><Link to="/contact">Contact Us</Link></li> */}
               <li className="mx-4"><Link to="/login" className="uppercase text-sm tracking-wide text-primary">Login</Link></li>
@@ -34,9 +34,23 @@ const Header = () => {
             {menuitem}
           </ul>
         </div>
-        {/* <div className="navbar-end">
-          <a className="btn">Get started</Link>
-        </div> */}
+            <div className="dropdown dropdown-end">
+          <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
+            <div className="w-10 rounded-full">
+              <img src="https://placeimg.com/80/80/people" alt="" />
+            </div>
+          </label>
+          <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
+            <li>
+            <Link className="justify-between" to="/adminuser">
+                Profile
+                <span className="badge">New</span>
+              </Link>
+            </li>
+            <li><Link to="/register">Register</Link></li>
+            <li><Link to="/logout">Logout</Link></li>
+          </ul>
+        </div>
       </div>
     </>
   );

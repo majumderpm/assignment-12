@@ -1,7 +1,7 @@
 import React from "react";
 
 const LatestProducts = ({ products }) => {
-  const { name, catagroy_name, img, total, id } = products;
+  const { name, catagroy_name, img, total, id, } = products;
   console.log(catagroy_name);
 
   return (
